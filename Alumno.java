@@ -14,6 +14,12 @@ public class Alumno {
         nombre = nombreCompleto;
         numeroMatricula = numeroMatriculaAlumno;
         edad = edadAlumno;
+        if (nombre.length() > 3){
+            System.out.println("El nombre debe de tener más de tres caracteres");
+        }
+        if (numeroMatricula.length() > 4){
+            System.out.println("El numero de matricula debe de tener más de cuatro caracteres");
+        }
     }
 
     /**
